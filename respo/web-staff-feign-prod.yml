@@ -3,6 +3,10 @@ spring:
     name: face-web-staff-feign
   zipkin:
     base-url: http://localhost:9410
+  boot:
+    admin:
+      client:
+        url: http://localhost:8083
   thymeleaf:
     cache: false
     mode: LEGACYHTML5

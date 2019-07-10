@@ -1,6 +1,6 @@
 spring:
   application:
-    name: face-spring-cloud-web-staff-feign
+    name: face-web-staff-feign
   thymeleaf:
     cache: false
     mode: LEGACYHTML5

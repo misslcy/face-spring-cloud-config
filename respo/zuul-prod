@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: face-zuul
+
+server:
+  port: 8768
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+zuul:
+  routes:
+    api-a:
+      path: /api/staff/**
+      serviceId: face-web-staff-feign

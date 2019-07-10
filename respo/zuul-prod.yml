@@ -1,6 +1,8 @@
 spring:
   application:
     name: face-zuul
+  zipkin:
+    base-url: http://localhost:9410
 
 server:
   port: 8768

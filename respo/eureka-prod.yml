@@ -1,6 +1,6 @@
 spring:
   application:
-    name: face-spring-cloud-eureka
+    name: face-eureka
 
 server:
   port: 8760

@@ -1,6 +1,6 @@
 spring:
   application:
-    name: face-sso
+    name: face-service-sso
   zipkin:
     base-url: http://localhost:9411
   boot:

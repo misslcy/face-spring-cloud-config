@@ -2,20 +2,20 @@ spring:
   application:
     name: face-eureka
   zipkin:
-    base-url: http://localhost:9411
+    base-url: http://112.74.41.246:9411
   boot:
     admin:
       client:
-        url: http://localhost:8084
+        url: http://112.74.41.246:8084
 
 server:
   port: 8761
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: 112.74.41.246
   client:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/,http://localhost:8760/eureka/
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/,http://112.74.41.246:8760/eureka/

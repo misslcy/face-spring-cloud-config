@@ -7,6 +7,11 @@ spring:
     admin:
       client:
         url: http://misslxx.com:8084
+  rabbitmq:
+    host: misslxx.com
+    port: 15672
+    username: lxx
+    password: Lcy100101
   datasource:
     druid:
       url: jdbc:mysql://misslxx.com:3306/tsets?useUnicode=true&characterEncoding=utf-8&useSSL=false

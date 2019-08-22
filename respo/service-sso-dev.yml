@@ -9,7 +9,7 @@ spring:
         url: http://misslxx.com:8084
   rabbitmq:
     host: misslxx.com
-    port: 15672
+    port: 5672
     username: lxx
     password: Lcy100101
   datasource:

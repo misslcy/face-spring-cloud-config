@@ -1,6 +1,16 @@
 spring:
   application:
     name: face-rabbitmq
+  mail:
+    host: smtp.163.com
+    username: zevjava@163.com
+    password: li100101
+    enable:  true
+    smtp:
+      auth: true
+    starttls:
+      enable: true
+      required: true
   zipkin:
     base-url: http://112.74.41.246:9411
   boot:
@@ -19,3 +29,8 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://112.74.41.246:8761/eureka/
+msg:
+  mail: zevjava@163.com
+  subject: 会员注册成功邮件。
+  text:  恭喜您的账户{},注册成功!
+      

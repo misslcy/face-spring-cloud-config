@@ -32,5 +32,5 @@ eureka:
 msg:
   mail: zevjava@163.com
   subject: 登录成功邮件
-  text:  您的账户{},在IP为-的电脑登录成功!
+  text:  您的账户{},在IP为<>的电脑登录成功!
       

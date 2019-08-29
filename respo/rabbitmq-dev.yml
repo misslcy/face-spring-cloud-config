@@ -31,6 +31,6 @@ eureka:
       defaultZone: http://112.74.41.246:8761/eureka/
 msg:
   mail: zevjava@163.com
-  subject: 会员注册成功邮件。
-  text:  恭喜您的账户{},注册成功!
+  subject: 登录成功邮件
+  text:  您的账户{},在IP为.的电脑登录成功!
       

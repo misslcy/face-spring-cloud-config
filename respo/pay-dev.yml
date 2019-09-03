@@ -7,8 +7,6 @@ spring:
     admin:
       client:
         url: http://112.74.41.246:8084
-  
-
 server:
   port: 8010
 

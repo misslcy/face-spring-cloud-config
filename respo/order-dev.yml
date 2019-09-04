@@ -1,6 +1,6 @@
 spring:
   application:
-    name: face-service-staff
+    name: face-order
   zipkin:
     base-url: http://112.74.41.246:9411
   boot:

@@ -8,7 +8,7 @@ spring:
   zipkin:
     base-url: http://misslxx.com:9411
   redis:
-    host: misslxx.com
+    host: 172.18.182.197
     port: 6379
     password: 
     lettuce:

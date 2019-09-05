@@ -21,6 +21,10 @@ spring:
 
 server:
   port: 8013
+  
+feign:
+  hystrix:
+    enabled: true
 
 eureka:
   client:

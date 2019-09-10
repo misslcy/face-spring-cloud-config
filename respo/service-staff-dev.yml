@@ -21,6 +21,10 @@ spring:
 
 server:
   port: 8762
+  
+tx-lcn:
+  client:
+    manager-address: 127.0.0.1:8070
 
 eureka:
   client:

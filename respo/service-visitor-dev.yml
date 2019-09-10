@@ -20,6 +20,10 @@ spring:
       driver-class-name: com.mysql.jdbc.Driver
 server:
   port: 8808
+  
+tx-lcn:
+  client:
+    manager-address: 127.0.0.1:8070
 
 eureka:
   client:
